@@ -1,0 +1,35 @@
+#page-nav{
+	text-align: center;
+	margin-top: 30px;
+	.page-number,.extend{
+		width: 30px;
+		height: 30px;
+		background: rgba(255,255,255,.7);
+        border: 1px solid rgba(153,204,153,0.8);
+		color: #a7a7a7;
+		display: inline-block;
+		line-height: 30px;
+		font-size: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition:300ms;
+        font-weight: bold;
+		cursor: pointer;
+		&:hover{
+			background: rgba(153,204,153,0.8)
+            border: 1px solid rgba(153,204,153,0.8)
+			color : #fff;
+		}
+	}
+	.current{
+		background: rgba(153,204,153,0.8)
+		cursor: default;
+		color #fff
+        transition:300ms;
+		&:hover{
+			cursor: default;
+			color:#fff;
+		}
+	}
+
+}
