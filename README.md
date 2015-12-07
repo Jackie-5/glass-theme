@@ -28,7 +28,7 @@ glass-theme主题改版后简介：
 #### 安装
 
 ``` bash
-$ git clone https://github.com/litten/hexo-glass-theme.git
+$ git clone https://github.com/Jackie-Web/glass-theme.git
 ```
 
 #### 配置
